@@ -13,7 +13,9 @@ var gameover = false;
 function setup()
 {
 	canvas=createCanvas(400,400);
-	canvas.position(470,200);	
+	var x = (windowWidth - 400) / 2;
+	var y = (windowHeight - 400) / 2;
+	canvas.position(x, y);
 	s = new snake();
 	counter = select('#counter');
 	console.log(counter);
