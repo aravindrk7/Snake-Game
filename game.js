@@ -138,7 +138,7 @@ function snake() {
         foody = random(400);
         foody = foody - (foody % 10);
       }
-      fill("#00ff22");
+      fill("yellow");
       rect(this.x, this.y, r, r);
     }
   };
