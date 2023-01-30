@@ -25,7 +25,7 @@ function draw() {
   s.show();
   counter.html(score);
   if (!gameover) {
-    fill("#ff0000");
+    fill("violet");
     rect(foodx, foody, r, r);
   } else {
     fill(0);
