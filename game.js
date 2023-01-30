@@ -25,7 +25,7 @@ function draw() {
   s.show();
   counter.html(score);
   if (!gameover) {
-    fill("violet");
+    fill("#ff0000");
     rect(foodx, foody, r, r);
   } else {
     fill(0);
@@ -138,7 +138,7 @@ function snake() {
         foody = random(400);
         foody = foody - (foody % 10);
       }
-      fill("blue");
+      fill("#00ff22");
       rect(this.x, this.y, r, r);
     }
   };
